@@ -14,7 +14,7 @@ const INFO = {
 	},
 
 	homepage: {
-		title: "Hi, I’m Emmanuel Muse",
+		title: "Hi, I’m Emmanuel Moose",
 		description:
 			"I am an Atlanta-based full-stack software engineer and freelance web developer, who specializes in building and designing web applications and helping clients create the site of their dreams!",
 	},
