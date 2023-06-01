@@ -5,6 +5,7 @@ import NavBar from "../components/common/navBar";
 import Footer from "../components/common/footer";
 import Logo from "../components/common/logo";
 import Socials from "../components/about/socials";
+import Works from "../components/homepage/works";
 
 import INFO from "../data/user";
 import SEO from "../data/seo";
@@ -66,6 +67,7 @@ const About = () => {
 								</div>
 							</div>
 						</div>
+						
 						<div className="about-socials-mobile">
 							<Socials />
 						</div>
