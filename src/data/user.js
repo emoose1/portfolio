@@ -45,21 +45,21 @@ const INFO = {
 		},
 
 		{
-			title: "ML Song Genre Predictor",
-			description:
-				"Understands the structure of various music genres, which will then be able to accurately predict the genre of any new set of song lyrics.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
-			linkText: "View Project",
-			link: "https://github.com/emoose1/ML-Song-Genre-Predictor",
-		},
-
-		{
 			title: "Automated ROI Calculator Web App",
 			description:
 				"Return On Investment Calculator web application used by national non-profit company for new non-profit client onboarding. (Click on the 'Fundrasing Management' tab for demo)",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
 			linkText: "View Project",
 			link: "https://brianapeppers.github.io/ver3-react/",
+		},
+
+		{
+			title: "ML Song Genre Predictor",
+			description:
+				"Understands the structure of various music genres, which will then be able to accurately predict the genre of any new set of song lyrics.",
+			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
+			linkText: "View Project",
+			link: "https://github.com/emoose1/ML-Song-Genre-Predictor",
 		},
 
 		{
@@ -70,6 +70,7 @@ const INFO = {
 			linkText: "View Project",
 			link: "https://github.com/emoose1/Atlanta_Crime_Rate_Data_Visualization/blob/master/ATL_Crime_2017_DataVis.ipynb",
 		},
+		
 
 		{
 			title: "Greenhouse Website Redesign",
@@ -81,22 +82,50 @@ const INFO = {
 		},
 
 		{
-			title: "Atlanta Crime Rate Data Visualization",
+			title: "Words of Affirmation Website",
 			description:
-				"A data visualization project utilizing crime data published by the Atlanta Police Department.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
+				"A simple words of affirmation generator site that I created while recording a tutorial for my personal YouTube channel.",
+			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/html/html.png",
 			linkText: "View Project",
-			link: "https://github.com/emoose1/Atlanta_Crime_Rate_Data_Visualization/blob/master/ATL_Crime_2017_DataVis.ipynb",
+			link: "https://emoose1.github.io/wordsofaffirmation/",
 		},
 
 		{
-			title: "Atlanta Crime Rate Data Visualization",
+			title: "'PantherAir' Airline Application",
 			description:
-				"A data visualization project utilizing crime data published by the Atlanta Police Department.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
+				"A flight reservation system application with user-control privledges.",
+			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/java/java.png",
 			linkText: "View Project",
-			link: "https://github.com/emoose1/Atlanta_Crime_Rate_Data_Visualization/blob/master/ATL_Crime_2017_DataVis.ipynb",
+			link: "https://github.com/salyateem13/pantherair",
 		},
+
+		{
+			title: "Android Mobile Memo App",
+			description:
+				"Android mobile memo taking application.",
+			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/kotlin/kotlin.png",
+			linkText: "View Project",
+			link: "https://github.com/emoose1/MemoApp",
+		},
+
+		{
+			title: "Android Mobile Contact List App",
+			description:
+				"Android mobile contact list application.",
+			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/kotlin/kotlin.png",
+			linkText: "View Project",
+			link: "https://github.com/emoose1/AndroidMyContactList",
+		},
+
+		{
+			title: "iOS Mobile Contact List App",
+			description:
+				"Android mobile contact list application.",
+			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/swift/swift.png",
+			linkText: "View Project",
+			link: "https://github.com/emoose1/iOSMyContactListApp",
+		},
+
 	],
 };
 
