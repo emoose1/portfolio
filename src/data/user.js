@@ -27,48 +27,75 @@ const INFO = {
 
 	projects: [
 		{
-			title: "Project 1",
+			title: "Staff & Resource Management Web App",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
-			linkText: "View Project",
-			link: "https://github.com",
+				"A Django web-based solution for managerial staffing and resource management of GTRI government-funded research projects.",
+			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
+			linkText: "GTRI Work",
+			link: "",
 		},
 
 		{
-			title: "Project 2",
+			title: "Inventory Management System Web App",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
+				"Developing an internal IMS web application for managing Greenhouse tech inventory, item tracking, user permissions, authentication, and email reporting.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
 			linkText: "View Project",
-			link: "https://github.com",
+			link: "https://github.com/emoose1/Greenhouse_IMS/",
 		},
 
 		{
-			title: "Project 3",
+			title: "ML Song Genre Predictor",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
+				"Understands the structure of various music genres, which will then be able to accurately predict the genre of any new set of song lyrics.",
+			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
+			linkText: "View Project",
+			link: "https://github.com/emoose1/ML-Song-Genre-Predictor",
+		},
+
+		{
+			title: "Automated ROI Calculator Web App",
+			description:
+				"Return On Investment Calculator web application used by national non-profit company for new non-profit client onboarding. (Click on the 'Fundrasing Management' tab for demo)",
+			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
+			linkText: "View Project",
+			link: "https://brianapeppers.github.io/ver3-react/",
+		},
+
+		{
+			title: "Atlanta Crime Rate Data Visualization",
+			description:
+				"A data visualization project utilizing crime data published by the Atlanta Police Department.",
+			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
+			linkText: "View Project",
+			link: "https://github.com/emoose1/Atlanta_Crime_Rate_Data_Visualization/blob/master/ATL_Crime_2017_DataVis.ipynb",
+		},
+
+		{
+			title: "Greenhouse Website Redesign",
+			description:
+				"Internal website redesign specifically using only vanilla HTML/CSS, so that it may clear U.S. Bank intranet firewalls.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/html/html.png",
 			linkText: "View Project",
-			link: "https://github.com",
+			link: "https://emoose1.github.io/GH-WebRedesign/",
 		},
 
 		{
-			title: "Project 4",
+			title: "Atlanta Crime Rate Data Visualization",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
+				"A data visualization project utilizing crime data published by the Atlanta Police Department.",
+			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
 			linkText: "View Project",
-			link: "https://github.com",
+			link: "https://github.com/emoose1/Atlanta_Crime_Rate_Data_Visualization/blob/master/ATL_Crime_2017_DataVis.ipynb",
 		},
 
 		{
-			title: "Project 5",
+			title: "Atlanta Crime Rate Data Visualization",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
+				"A data visualization project utilizing crime data published by the Atlanta Police Department.",
+			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
 			linkText: "View Project",
-			link: "https://github.com",
+			link: "https://github.com/emoose1/Atlanta_Crime_Rate_Data_Visualization/blob/master/ATL_Crime_2017_DataVis.ipynb",
 		},
 	],
 };
