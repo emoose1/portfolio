@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="211" height="185" viewBox="0 0 211 185">
+  <defs>
+    <path id="path-1" fill-rule="evenodd" d="M3 90.5L54 5h105l49 85.5-49 89.5H54L3 90.5z"/>
+    <linearGradient id="linearGradient-2" x1="80.9" x2="160.85" y1="57.5" y2="180" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="rgb(0,29,61)"/>
+      <stop offset="1" stop-color="rgb(0,82,100)"/>
+    </linearGradient>
+  </defs>
+  <g>
+    <use fill="url(#linearGradient-2)" xlink:href="#path-1"/>
+    <use fill-opacity="0" stroke="rgb(255,255,255)" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="9" xlink:href="#path-1"/>
+  </g>
+  <g>
+    <text font-size="0" style="white-space:pre">
+      <tspan x="57.25" y="146" fill="rgb(134, 253, 225)" font-family="Montserrat" font-size="150" font-weight="500" style="white-space:pre;text-transform:none">E</tspan>
+    </text>
+    <text fill="inherit" fill-opacity="0" stroke="rgb(0,33,40)" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="1" font-size="0" style="white-space:pre">
+      <tspan x="57.25" y="146" font-family="Montserrat" font-size="150" font-weight="500" style="white-space:pre;text-transform:none">E</tspan>
+    </text>
+  </g>
+</svg>

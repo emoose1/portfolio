@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="319" height="158" viewBox="0 0 319 158">
+  <defs>
+    <text id="text-1" font-size="0" style="white-space:pre" fill="inherit">
+      <tspan x="0" y="125" font-family="Montserrat" font-size="130" font-weight="700" style="white-space:pre;text-transform:none">GTRI</tspan>
+    </text>
+    <mask id="mask-2" x="0" y="0" maskContentUnits="userSpaceOnUse" maskUnits="userSpaceOnUse">
+      <rect width="319" height="158" x="0" y="0" fill="black"/>
+      <use fill="white" xlink:href="#text-1"/>
+    </mask>
+  </defs>
+  <g>
+    <text font-size="0" style="white-space:pre">
+      <tspan x="0" y="125" fill="rgb(251,255,165)" font-family="Montserrat" font-size="130" font-weight="700" style="white-space:pre;text-transform:none">GTRI</tspan>
+    </text>
+    <use fill-opacity="0" stroke="rgb(0,0,0)" stroke-linecap="butt" stroke-linejoin="miter" stroke-width="4" mask="url(#mask-2)" xlink:href="#text-1"/>
+  </g>
+</svg>
