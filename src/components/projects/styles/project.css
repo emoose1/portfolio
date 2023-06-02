@@ -23,8 +23,13 @@
 }
 
 .project-container {
+	display: grid;
+	grid-template-columns: 1fr;
+	gap: 10px;
+	align-items: start;
 	padding: 30px;
 }
+
 
 .project-logo {
 	width: 30px;
@@ -45,14 +50,18 @@
 
 .project-description {
 	color: var(--secondary-color);
+	font-size: clamp(12px, 1.5vw, 18px);
+	padding: 1 0rem;
 }
 
 .project-link {
-	display: flex;
+	display: grid;
+	grid-template-columns: auto 1fr;
 	align-items: center;
 	color: var(--secondary-color);
-	font-size: 12px;
-	padding-top: 20px;
+	font-size: clamp(12px, 1.5vw, 14px);
+	align-self: end;
+	padding: 1 0rem;
 }
 
 .project-link-icon {
@@ -67,6 +76,6 @@
 
 @media (max-width: 600px) {
 	.project {
-		height: 300px;
+		height: 400px;
 	}
 }
