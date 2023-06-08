@@ -1,6 +1,6 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { faCalendarAlt, faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import {
 	faGithub,
 	faLinkedin,
@@ -14,7 +14,6 @@ const Socials = () => {
 	return (
 		<div className="socials">
 			
-
 			<div className="social">
 				<a href={INFO.socials.github} target="_blank" rel="noreferrer">
 					<div className="social-icon">
@@ -43,6 +42,21 @@ const Socials = () => {
 				</a>
 			</div>
 
+			<div className="social">
+				<a
+					href={INFO.socials.calendly}
+					target="_blank"
+					rel="noreferrer"
+				>
+					<div className="social-icon">
+						<FontAwesomeIcon
+							icon={faCalendarAlt}
+							className="social-icon"
+						/>
+					</div>
+					<div className="social-text">Schedule on Calendly</div>
+				</a>
+			</div>
 
 			<div className="email">
 				<div className="email-wrapper">

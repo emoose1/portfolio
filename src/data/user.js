@@ -11,6 +11,7 @@ const INFO = {
 		linkedin: "https://www.linkedin.com/in/emmanuel109/",
 		instagram: "https://instagram.com/",
 		stackoverflow: "https://stackoverflow.com/",
+		calendly: "https://calendly.com/emmanuelmdev/30min"
 	},
 
 	homepage: {

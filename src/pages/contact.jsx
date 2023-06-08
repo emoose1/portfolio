@@ -40,26 +40,28 @@ const Contact = () => {
 
 					<div className="contact-container">
 						<div className="title contact-title">
-							Let's Get in Touch: Ways to Connect with Me
+							Let's Get in Touch: Ways to Connect
 						</div>
 
 						<div className="subtitle contact-subtitle">
-							Thank you for your interest in getting in touch with
-							me. I welcome your feedback, questions, and
-							suggestions. If you have a specific question or
-							comment, please feel free to email me directly at
-							&nbsp;{" "}
+							Your feedback, questions, and suggestions are warmly welcomed. 
+							If you have a particular inquiry or comment, please don't 
+							hesitate to reach me via email at&nbsp;{""}
 							<a href={`mailto:${INFO.main.email}`}>
 								{INFO.main.email}
-							</a>
-							. I make an effort to respond to all messages within
-							24 hours, although it may take me longer during busy
-							periods. Alternatively, you can book time on my Calendly calendar to schedule a conversation. Simply fill out the
-							required fields and I'll get back to you as soon as
-							possible.
-
-							Thanks again for your interest, and I look forward
-							to hearing from you!
+							</a>. 
+							<br></br>
+							<br></br>
+							Also, you can schedule a conversation by booking a time slot on my&nbsp;{""} 
+							<a href={`mailto:${INFO.socials.calendly}`}>
+								Calendly calendar
+							</a>.
+							Simply fill out the required fields and I'll get back to you as soon as possible. 
+							<br></br>
+							<br></br>
+							I strive to reply to all messages within 24 hours, although there might be delays 
+							during busy periods. Once again, thank you for your interest, and I look forward
+							to hearing from you! 
 						</div>
 					</div>
 
