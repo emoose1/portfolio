@@ -1,6 +1,6 @@
 const INFO = {
 	main: {
-		title: "portfolio",
+		title: "Portfolio",
 		name: "Emmanuel M.",
 		email: "Hello@EmmanuelM.dev",
 		logo: "../logo.png",
