@@ -21,6 +21,13 @@ const SEO = [
 	},
 
 	{
+		page: "demos",
+		description:
+			"I've worked on a variety of projects over the years and I'm proud of the progress I've made. A few of the projects are hosted live for demonstartion. Thanks for taking a look.",
+		keywords: ["Emmanuel", "Emmanuel M", "Emmanuel Muse"],
+	},
+
+	{
 		page: "contact",
 		description:
 			"If you're interested in collaborating on a project, feel free to reach out to me. I'm always open to new ideas and opportunities.",

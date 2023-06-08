@@ -5,23 +5,26 @@ import NavBar from "../components/common/navBar";
 import Footer from "../components/common/footer";
 import Logo from "../components/common/logo";
 import AllProjects from "../components/projects/allProjects";
+import AllDemos from "../components/demos/allDemos";
 
 import INFO from "../data/user";
 import SEO from "../data/seo";
 
+import "./styles/demo.css";
 import "./styles/projects.css";
+
 
 const Demos = () => {
 	useEffect(() => {
 		window.scrollTo(0, 0);
 	}, []);
 
-	const currentSEO = SEO.find((item) => item.page === "projects");
+	const currentSEO = SEO.find((item) => item.page === "demos");
 
 	return (
 		<React.Fragment>
 			<Helmet>
-				<title>{`Projects | ${INFO.main.title}`}</title>
+				<title>{`Demos | ${INFO.main.title}`}</title>
 				<meta name="description" content={currentSEO.description} />
 				<meta
 					name="keywords"
@@ -30,7 +33,7 @@ const Demos = () => {
 			</Helmet>
 
 			<div className="page-content">
-				<NavBar active="projects" />
+				<NavBar active="demos" />
 				<div className="content-wrapper">
 					<div className="projects-logo-container">
 						<div className="projects-logo">
@@ -39,7 +42,7 @@ const Demos = () => {
 					</div>
 					<div className="projects-container">
 						<div className="title projects-title">
-							Things I’ve made trying to put my mark on to the internet.
+							A live showcase of a few things I've created.
 						</div>
 
 						<div className="subtitle projects-subtitle">
@@ -47,7 +50,9 @@ const Demos = () => {
 							If you're interested in any of the projects I've worked on, please feel free to explore the code and share any suggestions 
 							or enhancements you may have in mind.
 						</div>
-
+						<div className="demos-list">
+							<AllDemos />
+						</div>
 						<div className="projects-list">
 							<AllProjects />
 						</div>
