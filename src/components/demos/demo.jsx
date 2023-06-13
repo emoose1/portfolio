@@ -10,10 +10,12 @@ const Demo = (props) => {
 
 	return (
 		<React.Fragment>
-			<div className="project">
-                <p>
-                    demo component placeholder
-                </p>
+            <div className="demo">
+                <p>demo START</p>
+				<p>demo component END</p>
+            </div>
+
+			{/* <div className="project">
 				<Link to={link}>
 					<div className="project-container">
 						<div className="project-logo">
@@ -30,7 +32,7 @@ const Demo = (props) => {
 						</div>
 					</div>
 				</Link>
-			</div>
+			</div> */}
 		</React.Fragment>
 	);
 };
