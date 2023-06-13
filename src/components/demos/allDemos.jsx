@@ -12,7 +12,7 @@ const AllDemos = () => {
 		<div className="all-projects-container">
             <div>
                 <h3>
-                    all demos START
+                    alldemos component START
                 </h3>
 
                 <Demo>
@@ -31,9 +31,9 @@ const AllDemos = () => {
 				</div>
 			))} */}
             
-                <h2>
-                    all demos END
-                </h2>
+                <h3>
+					alldemos component END
+                </h3>
                 
             </div>
 		</div>

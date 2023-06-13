@@ -2,6 +2,11 @@
 
 @import "../../../data/styles.css";
 
+.demo {
+	mix-blend-mode: normal;
+	height: 100%;
+}
+
 .project {
 	mix-blend-mode: normal;
 	border-radius: 20px;
