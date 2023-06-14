@@ -34,6 +34,7 @@ const INFO = {
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
 			linkText: "GTRI Work",
 			link: "",
+			demo:"",
 		},
 
 		{
@@ -43,6 +44,7 @@ const INFO = {
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
 			linkText: "View Project",
 			link: "https://github.com/emoose1/Greenhouse_IMS/",
+			demo:"",
 		},
 
 		{
@@ -52,6 +54,7 @@ const INFO = {
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
 			linkText: "View Project",
 			link: "https://brianapeppers.github.io/ver3-react/",
+			demo:"",
 		},
 
 		{
@@ -61,6 +64,7 @@ const INFO = {
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
 			linkText: "View Project",
 			link: "https://github.com/emoose1/ML-Song-Genre-Predictor",
+			demo:"",
 		},
 
 		{
@@ -70,6 +74,7 @@ const INFO = {
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
 			linkText: "View Project",
 			link: "https://github.com/emoose1/Atlanta_Crime_Rate_Data_Visualization/blob/master/ATL_Crime_2017_DataVis.ipynb",
+			demo:"",
 		},
 		
 
@@ -80,6 +85,7 @@ const INFO = {
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/html/html.png",
 			linkText: "View Project",
 			link: "https://emoose1.github.io/GH-WebRedesign/",
+			demo:"",
 		},
 
 		{
@@ -89,6 +95,7 @@ const INFO = {
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/html/html.png",
 			linkText: "View Project",
 			link: "https://emoose1.github.io/wordsofaffirmation/",
+			demo:"",
 		},
 
 		{
@@ -98,6 +105,7 @@ const INFO = {
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/java/java.png",
 			linkText: "View Project",
 			link: "https://github.com/salyateem13/pantherair",
+			demo:"",
 		},
 
 		{
@@ -107,6 +115,7 @@ const INFO = {
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/kotlin/kotlin.png",
 			linkText: "View Project",
 			link: "https://github.com/emoose1/MemoApp",
+			demo:"",
 		},
 
 		{
@@ -116,6 +125,7 @@ const INFO = {
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/kotlin/kotlin.png",
 			linkText: "View Project",
 			link: "https://github.com/emoose1/AndroidMyContactList",
+			demo:"",
 		},
 
 		{
@@ -125,6 +135,7 @@ const INFO = {
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/swift/swift.png",
 			linkText: "View Project",
 			link: "https://github.com/emoose1/iOSMyContactListApp",
+			demo:"",
 		},
 
 	],
