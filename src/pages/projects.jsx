@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import { Helmet } from "react-helmet";
-
+import { TypeAnimation } from 'react-type-animation';
 import NavBar from "../components/common/navBar";
 import Footer from "../components/common/footer";
 import Logo from "../components/common/logo";
@@ -39,13 +39,15 @@ const Projects = () => {
 					</div>
 					<div className="projects-container">
 						<div className="title projects-title">
-							Things I’ve made trying to put my mark on to the internet.
+							<TypeAnimation
+								sequence={[INFO.projectpage.title]}
+								speed={15}
+								repeat={4}
+							/>
 						</div>
 
 						<div className="subtitle projects-subtitle">
-							I have gained valuable experience working on various projects over the years and I'm proud of the progress I've made. 
-							If you're interested in any of the projects I've worked on, please feel free to explore the code and share any suggestions 
-							or enhancements you may have in mind.
+							{INFO.projectpage.description}
 						</div>
 
 						<div className="projects-list">

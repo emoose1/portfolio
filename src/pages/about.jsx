@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import { Helmet } from "react-helmet";
-
+import { TypeAnimation } from 'react-type-animation';
 import NavBar from "../components/common/navBar";
 import Footer from "../components/common/footer";
 import Logo from "../components/common/logo";
@@ -42,7 +42,11 @@ const About = () => {
 						<div className="about-main">
 							<div className="about-right-side">
 								<div className="title about-title">
-									{INFO.about.title}
+									<TypeAnimation
+										sequence={[INFO.about.title]}
+										speed={15}
+  										repeat={4}
+									/>
 								</div>
 
 								<div className="subtitle about-subtitle">

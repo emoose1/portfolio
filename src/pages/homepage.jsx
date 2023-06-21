@@ -1,7 +1,10 @@
 import React, { useState, useEffect } from "react";
 import { Helmet } from "react-helmet";
-
-import { faMailBulk } from "@fortawesome/free-solid-svg-icons";
+import { TypeAnimation } from 'react-type-animation';
+import { 
+	faMailBulk,
+	faCalendarAlt,
+	} from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
 	faGithub,
@@ -88,7 +91,11 @@ const Homepage = () => {
 						<div className="homepage-first-area">
 							<div className="homepage-first-area-left-side">
 								<div className="title homepage-title">
-									{INFO.homepage.title}
+									<TypeAnimation
+										sequence={[INFO.homepage.title]}
+										speed={11}
+  										repeat={4}
+									/>
 								</div>
 
 								<div className="subtitle homepage-subtitle">
@@ -110,18 +117,6 @@ const Homepage = () => {
 						</div>
 
 						<div className="homepage-socials">
-							
-							<a
-								href={INFO.socials.linkedin}
-								target="_blank"
-								rel="noreferrer"
-							>
-								<FontAwesomeIcon
-									icon={faLinkedin}
-									className="homepage-social-icon"
-								/>
-							</a>
-
 							<a
 								href={`mailto:${INFO.main.email}`}
 								target="_blank"
@@ -129,6 +124,17 @@ const Homepage = () => {
 							>
 								<FontAwesomeIcon
 									icon={faMailBulk}
+									className="homepage-social-icon"
+								/>
+							</a>
+
+							<a
+								href={INFO.socials.linkedin}
+								target="_blank"
+								rel="noreferrer"
+							>
+								<FontAwesomeIcon
+									icon={faLinkedin}
 									className="homepage-social-icon"
 								/>
 							</a>
@@ -154,6 +160,18 @@ const Homepage = () => {
 									className="homepage-social-icon"
 								/>
 							</a>
+
+							<a
+								href={INFO.socials.calendly}
+								target="_blank"
+								rel="noreferrer"
+							>
+								<FontAwesomeIcon
+									icon={faCalendarAlt}
+									className="homepage-social-icon"
+								/>
+							</a>
+
 						</div>
 
 						<div className="homepage-after-title">
