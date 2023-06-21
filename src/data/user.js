@@ -26,6 +26,11 @@ const INFO = {
 			"I've worked on a variety of projects over the years and I'm proud of the progress I've made. Many of these projects are open-source and available for others to explore and contribute to. If you're interested in any of the projects I've worked on, please feel free to check out the code and suggest any improvements or enhancements you might have in mind. Collaborating with others is a great way to learn and grow, and I'm always open to new ideas and feedback.",
 	},
 
+	contactPage: {
+		title: "Let's Get in Touch: Ways to Connect",
+		description: "Your feedback, questions, and suggestions are warmly welcomed. If you have a particular inquiry or comment, please don't hesitate to reach me via email at Hello@EmmanuelM.dev. Also, you can schedule a conversation by booking a time slot on my Calendly calendar. Simply fill out the required fields and I'll get back to you as soon as possible. I strive to reply to all messages within 24 hours, although there might be delays during busy periods. Once again, thank you for your interest, and I look forward to hearing from you!"
+	},
+
 	projectpage: {
 		title: "A few of the things I’ve made for the internet.",
 		description: " I have gained valuable experience working on various projects over the years and I'm proud of the progress I've made. If you're interested in any of the projects I've worked on, please feel free to explore the code and share any suggestions or enhancements you may have in mind.",

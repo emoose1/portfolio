@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import { Helmet } from "react-helmet";
-
+import { TypeAnimation } from 'react-type-animation';
 import NavBar from "../components/common/navBar";
 import Footer from "../components/common/footer";
 import Logo from "../components/common/logo";
@@ -40,7 +40,11 @@ const Contact = () => {
 
 					<div className="contact-container">
 						<div className="title contact-title">
-							Let's Get in Touch: Ways to Connect
+							<TypeAnimation
+								sequence={[INFO.contactPage.title]}
+								speed={15}
+								repeat={4}
+							/>
 						</div>
 
 						<div className="subtitle contact-subtitle">
